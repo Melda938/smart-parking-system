@@ -12,21 +12,23 @@ Bu proje, ESP32 mikrokontrolcüsü ve ultrasonik mesafe sensörü kullanılarak 
 
 ## 📌 Pin Bağlantı Şeması
 
-| Bileşen | Modül Pini | ESP32 GPIO Pini / Bağlantı Noktası |
-| :--- | :--- | :--- |
-| **HC-SR04 Sensör**
-| VCC | 5V / VIN |
-| | GND | GND |
-| | Trig | GPIO 18 |
-| | Echo | GPIO 19 |
-| **16x2 I2C LCD Ekran**
-| VCC / GND | 5V / GND |
-| | SDA | GPIO 21 |
-| | SCL | GPIO 22 |
+**HC-SR04 Mesafe Sensörü:**
+* **VCC** -> 5V / VIN
+* **GND** -> GND
+* **Trig** -> GPIO 18
+* **Echo** -> GPIO 19
+
+**16x2 I2C LCD Ekran:**
+* **VCC** -> 5V
+* **GND** -> GND
+* **SDA** -> GPIO 21
+* **SCL** -> GPIO 22
+
+
 
 ---
 
-## 📦 Gereken Kütüphanele
+## 📦 Gereken Kütüphaneler
 Arduino IDE üzerinden projeyi çalıştırmadan önce şu kütüphane kuruldu:
 1. `LiquidCrystal_I2C`
 
