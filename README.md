@@ -25,7 +25,7 @@ Bu proje, ESP32 mikrokontrolcüsü ve ultrasonik mesafe sensörü kullanılarak 
 * **VCC** -> 5V / VIN
 * **GND** -> GND
 * **Trig** -> GPIO 18
-* **Echo** -> GPIO 19
+* **Echo*** -> GPIO 19
 
 **16x2 I2C LCD Ekran:**
 * **VCC** -> 5V
